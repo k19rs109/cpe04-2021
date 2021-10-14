@@ -14,6 +14,11 @@ button{
   color: green;
   font-weight: boid;
 }
+
+#time{
+  box-shadow: 5px 5px 5px;
+  width:50%
+}
     #minuteStr {
         color: #ff0000;
         font-size: 20px;
