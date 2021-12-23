@@ -15,6 +15,12 @@ button{
   font-weight: boid;
 }
 
+#btnB{
+  background-color: rgb(255, 0, 119);
+  color: green;
+  font-weight: boid;
+}
+
 #time{
   box-shadow: 5px 5px 5px;
   width:30%
@@ -65,19 +71,24 @@ button{
     
     #btnA {
         font-size: 20px;
-        position:absolute; top:430px; left:30%; width:43%; height:60px; 
+        position:absolute; top:430px; left:5%; width:43%; height:60px; 
     }
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:500px; left:5%; width:40%; height:60px; 
+        position:absolute; top:430px; left:50%; width:40%; height:60px; 
     }
 
     #btnC {
         font-size: 20px;
+        position:absolute; top:500px; left:5%; width:40%; height:60px; 
+    }
+     /* 追加ボタン（保存） */
+     #ons-button {                        
+        font-size: 20px;
         position:absolute; top:500px; left:50%; width:40%; height:60px; 
     }
-    
+
     #minute {
         font-size: 30px;
         position:absolute; top:380px; left:60px; width:80px; height:40px;   
